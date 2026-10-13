@@ -1,0 +1,315 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1600 1080" width="1600" height="1080" fill="none">
+  <defs>
+    <style>
+      @import url('https://fonts.googleapis.com/css2?family=Fraunces:ital,opsz,wght@0,9..144,700;1,9..144,700&amp;family=JetBrains+Mono:wght@500;700&amp;family=Outfit:wght@500;700;900&amp;display=swap');
+      .sans-black { font-family: 'Satoshi', 'Outfit', -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif; font-weight: 900; }
+      .sans-bold { font-family: 'Satoshi', 'Outfit', -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif; font-weight: 700; }
+      .sans-med { font-family: 'Satoshi', 'Outfit', -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif; font-weight: 500; }
+      .serif-idiom { font-family: 'Fraunces', Georgia, serif; font-weight: 700; font-style: italic; }
+      .mono { font-family: 'JetBrains Mono', 'Consolas', monospace; font-weight: 700; }
+      .mono-reg { font-family: 'JetBrains Mono', 'Consolas', monospace; font-weight: 500; }
+    </style>
+    <pattern id="blueprintGrid" width="24" height="24" patternUnits="userSpaceOnUse">
+      <path d="M 24 0 L 0 0 0 24" fill="none" stroke="#FFFFFF" stroke-opacity="0.06" stroke-width="1"/>
+    </pattern>
+  </defs>
+
+  <!-- Outer Studio Canvas -->
+  <rect width="1600" height="1080" fill="#0D0C10"/>
+  <rect x="24" y="24" width="1552" height="1032" rx="32" fill="#141318" stroke="#FFFFFF" stroke-opacity="0.1" stroke-width="2"/>
+
+  <!-- Top Presentation Header -->
+  <rect x="56" y="48" width="210" height="28" rx="14" fill="#E06D3B"/>
+  <text x="161" y="66" text-anchor="middle" fill="#FFFFFF" class="mono" font-size="12" letter-spacing="0.06em">PINGO BRANDKIT 3×3</text>
+  <text x="282" y="67" fill="#A1A1AA" class="mono-reg" font-size="13">GAMIFIED AI ENGLISH PHRASE &amp; VOICE REFLEX SYSTEM • GEOMETRIC "P" MONOGRAM</text>
+  <text x="1544" y="67" text-anchor="end" fill="#71717A" class="mono-reg" font-size="12">#FBF9F5 • #141318 • #E06D3B</text>
+  <line x1="56" y1="92" x2="1544" y2="92" stroke="#FFFFFF" stroke-opacity="0.1"/>
+
+  <!-- ========================================================================
+       ROW 1, COL 1 (PANEL 01): PRIMARY LOGO & GEOMETRIC "P" MONOGRAM
+       ======================================================================== -->
+  <g transform="translate(56, 112)">
+    <rect width="476" height="292" rx="24" fill="#FBF9F5"/>
+    <text x="24" y="34" fill="#71717A" class="mono" font-size="11">01 / PRIMARY IDENTITY</text>
+    <rect x="314" y="18" width="138" height="24" rx="12" fill="#E06D3B" fill-opacity="0.15"/>
+    <text x="383" y="34" text-anchor="middle" fill="#B34E24" class="mono" font-size="11">PING-LOOP MONOGRAM</text>
+
+    <!-- 3D Monogram Tile -->
+    <rect x="52" y="92" width="110" height="108" rx="28" fill="#B34E24"/>
+    <rect x="52" y="84" width="110" height="108" rx="28" fill="#E06D3B"/>
+    <!-- 1. Left Vertical Phrase Pillar (Stem) -->
+    <rect x="78" y="106" width="18" height="64" rx="9" fill="#18181B"/>
+    <!-- 2. Right Acoustic Speech Loop (Bowl of P) -->
+    <path d="M103 106H114C127.807 106 139 117.193 139 131C139 144.807 127.807 156 114 156H103V140H114C118.971 140 123 135.971 123 131C123 126.029 118.971 122 114 122H103V106Z" fill="#18181B"/>
+    <!-- 3. Optical Center Ping Dot -->
+    <circle cx="113" cy="131" r="6" fill="#FBF9F5"/>
+
+    <!-- Wordmark -->
+    <text x="184" y="152" fill="#18181B" class="sans-black" font-size="68" letter-spacing="-0.03em">PINGO</text>
+    <circle cx="412" cy="140" r="8" fill="#E06D3B"/>
+    <text x="186" y="180" fill="#71717A" class="mono-reg" font-size="13">PING (REFLEX) + LINGO (PHRASE)</text>
+
+    <line x1="24" y1="246" x2="452" y2="246" stroke="#E6E1D6" stroke-width="1.5"/>
+    <text x="24" y="270" fill="#18181B" class="sans-bold" font-size="13">Phrase Pillar + Speech Loop + Ping Node</text>
+    <text x="452" y="270" text-anchor="end" fill="#71717A" class="mono-reg" font-size="12">24×24 GRID</text>
+  </g>
+
+  <!-- ========================================================================
+       ROW 1, COL 2 (PANEL 02): MONOGRAM CONSTRUCTION GEOMETRY
+       ======================================================================== -->
+  <g transform="translate(562, 112)">
+    <rect width="476" height="292" rx="24" fill="#1E1C24" stroke="#FFFFFF" stroke-opacity="0.1"/>
+    <rect width="476" height="292" rx="24" fill="url(#blueprintGrid)"/>
+    <text x="24" y="34" fill="#A1A1AA" class="mono" font-size="11">02 / MONOGRAM CONSTRUCTION</text>
+    <text x="452" y="34" text-anchor="end" fill="#E06D3B" class="mono" font-size="11">SWISS GEOMETRY</text>
+
+    <!-- Construction Guide Lines -->
+    <line x1="40" y1="126" x2="436" y2="126" stroke="#E06D3B" stroke-opacity="0.35" stroke-dasharray="5 5"/>
+    <line x1="252" y1="48" x2="252" y2="232" stroke="#E06D3B" stroke-opacity="0.35" stroke-dasharray="5 5"/>
+    <line x1="202" y1="48" x2="202" y2="232" stroke="#F5F3EF" stroke-opacity="0.2" stroke-dasharray="3 3"/>
+    <circle cx="252" cy="126" r="54" stroke="#F5F3EF" stroke-opacity="0.25" stroke-width="1.5"/>
+    <circle cx="252" cy="126" r="26" stroke="#E06D3B" stroke-opacity="0.5" stroke-width="1.5" stroke-dasharray="4 4"/>
+
+    <!-- 1. Left Stem (Phrase Pillar) -->
+    <rect x="164" y="72" width="28" height="148" rx="14" fill="#F5F3EF" stroke="#E06D3B" stroke-width="2"/>
+    <!-- 2. Right Semicircular Bowl of P -->
+    <path d="M204 72H252C281.823 72 306 96.1766 306 126C306 155.823 281.823 180 252 180H204V152H252C266.359 152 278 140.359 278 126C278 111.641 266.359 100 252 100H204V72Z" fill="#141318" stroke="#F5F3EF" stroke-width="2.5"/>
+    <!-- 3. Central Ping Dot & Acoustic Arc -->
+    <circle cx="252" cy="126" r="12" fill="#E06D3B"/>
+    <path d="M318 100C330 114 330 138 318 152" stroke="#E06D3B" stroke-width="3.5" stroke-linecap="round"/>
+
+    <!-- Blueprint Callouts -->
+    <text x="32" y="92" fill="#A1A1AA" class="mono" font-size="11">01. PHRASE PILLAR</text>
+    <text x="32" y="196" fill="#E06D3B" class="mono" font-size="11">02. STENCIL CUT</text>
+    <text x="336" y="130" fill="#F5F3EF" class="mono" font-size="11">03. PING NODE</text>
+
+    <rect x="24" y="242" width="134" height="30" rx="8" fill="#FFFFFF" fill-opacity="0.06"/>
+    <text x="91" y="261" text-anchor="middle" fill="#F5F3EF" class="mono-reg" font-size="12">1. Stem = Block</text>
+    <rect x="171" y="242" width="134" height="30" rx="8" fill="#E06D3B" fill-opacity="0.18"/>
+    <text x="238" y="261" text-anchor="middle" fill="#E06D3B" class="mono" font-size="12">2. Loop = Chat</text>
+    <rect x="318" y="242" width="134" height="30" rx="8" fill="#FFFFFF" fill-opacity="0.06"/>
+    <text x="385" y="261" text-anchor="middle" fill="#F5F3EF" class="mono-reg" font-size="12">3. Dot = Ping</text>
+  </g>
+
+  <!-- ========================================================================
+       ROW 1, COL 3 (PANEL 03): PHASE 1 — DAYLIGHT MINI-GAME MOBILE UI
+       ======================================================================== -->
+  <g transform="translate(1068, 112)">
+    <rect width="476" height="292" rx="24" fill="#F3EFE6"/>
+    <text x="24" y="34" fill="#71717A" class="mono" font-size="11">03 / PHASE 1: DAYLIGHT PLAY UI</text>
+    <text x="452" y="34" text-anchor="end" fill="#18181B" class="mono" font-size="11">#FBF9F5 SURFACE</text>
+
+    <rect x="24" y="48" width="428" height="224" rx="20" fill="#FBF9F5" stroke="#18181B" stroke-width="4"/>
+    <rect x="44" y="66" width="270" height="10" rx="5" fill="#E6E1D6"/>
+    <rect x="44" y="66" width="205" height="10" rx="5" fill="#E06D3B"/>
+    <rect x="330" y="60" width="102" height="22" rx="11" fill="#E06D3B" fill-opacity="0.16"/>
+    <text x="381" y="75" text-anchor="middle" fill="#B34E24" class="mono" font-size="11">COMBO 4x</text>
+
+    <text x="44" y="102" fill="#18181B" class="sans-bold" font-size="14">When an indie film turns out way better than expected:</text>
+
+    <rect x="44" y="114" width="388" height="46" rx="12" fill="#F3EFE6" stroke="#D6CFC2" stroke-width="2" stroke-dasharray="5 5"/>
+    <rect x="54" y="122" width="136" height="30" rx="8" fill="#FFFFFF" stroke="#E6E1D6" stroke-width="1.5"/>
+    <text x="122" y="142" text-anchor="middle" fill="#18181B" class="sans-bold" font-size="13">That movie was</text>
+
+    <rect x="198" y="122" width="176" height="30" rx="8" fill="#E06D3B" fill-opacity="0.15" stroke="#E06D3B" stroke-width="2"/>
+    <text x="286" y="142" text-anchor="middle" fill="#18181B" class="serif-idiom" font-size="15">“lowkey a masterpiece”</text>
+    <text x="404" y="141" text-anchor="middle" fill="#71717A" class="mono-reg" font-size="11">/ˈloʊ.ki/</text>
+
+    <rect x="44" y="172" width="114" height="32" rx="10" fill="#D6CFC2"/>
+    <rect x="44" y="169" width="114" height="32" rx="10" fill="#FFFFFF" stroke="#E6E1D6" stroke-width="1.5"/>
+    <text x="101" y="189" text-anchor="middle" fill="#18181B" class="sans-bold" font-size="12">spill the tea</text>
+
+    <rect x="168" y="172" width="124" height="32" rx="10" fill="#D6CFC2"/>
+    <rect x="168" y="169" width="124" height="32" rx="10" fill="#FFFFFF" stroke="#E6E1D6" stroke-width="1.5"/>
+    <text x="230" y="189" text-anchor="middle" fill="#18181B" class="sans-bold" font-size="12">worth the hype</text>
+
+    <rect x="302" y="172" width="130" height="32" rx="10" fill="#D6CFC2"/>
+    <rect x="302" y="169" width="130" height="32" rx="10" fill="#FFFFFF" stroke="#E6E1D6" stroke-width="1.5"/>
+    <text x="367" y="189" text-anchor="middle" fill="#18181B" class="sans-bold" font-size="12">out of pocket</text>
+
+    <rect x="44" y="218" width="388" height="40" rx="12" fill="#B34E24"/>
+    <rect x="44" y="214" width="388" height="40" rx="12" fill="#E06D3B"/>
+    <text x="238" y="239" text-anchor="middle" fill="#FFFFFF" class="sans-black" font-size="13" letter-spacing="0.05em">LOCK IN &amp; ENTER 2:00 VOICE STUDIO →</text>
+  </g>
+
+  <!-- ========================================================================
+       ROW 2, COL 1 (PANEL 04): BRAND ESSENCE & TAGLINE POSTER
+       ======================================================================== -->
+  <g transform="translate(56, 428)">
+    <rect width="476" height="292" rx="24" fill="#1E1C24" stroke="#FFFFFF" stroke-opacity="0.1"/>
+    <text x="24" y="34" fill="#A1A1AA" class="mono" font-size="11">04 / BRAND ESSENCE</text>
+    <rect x="322" y="18" width="130" height="24" rx="12" fill="#E06D3B" fill-opacity="0.2" stroke="#E06D3B"/>
+    <text x="387" y="34" text-anchor="middle" fill="#E06D3B" class="mono" font-size="11">5-MIN DAILY LOOP</text>
+
+    <text x="28" y="112" fill="#F5F3EF" class="sans-black" font-size="46" letter-spacing="-0.03em">Catch the </text>
+    <text x="252" y="112" fill="#E06D3B" class="serif-idiom" font-size="48">lingo.</text>
+    <text x="28" y="164" fill="#F5F3EF" class="sans-black" font-size="46" letter-spacing="-0.03em">Spark the chat.</text>
+
+    <text x="28" y="202" fill="#A1A1AA" class="sans-med" font-size="14">Play 3 fast phrase mini-games on Daylight cards, then</text>
+    <text x="28" y="222" fill="#A1A1AA" class="sans-med" font-size="14">bounce them back in a 2-minute Cozy Night AI voice rally.</text>
+
+    <rect x="28" y="242" width="176" height="32" rx="10" fill="#FBF9F5"/>
+    <text x="116" y="263" text-anchor="middle" fill="#18181B" class="sans-bold" font-size="12">01. Catch Phrase (Light)</text>
+    <text x="222" y="263" text-anchor="middle" fill="#E06D3B" class="mono" font-size="14">→</text>
+    <rect x="240" y="242" width="208" height="32" rx="10" fill="#E06D3B" fill-opacity="0.2" stroke="#E06D3B" stroke-width="1.5"/>
+    <text x="344" y="263" text-anchor="middle" fill="#F5F3EF" class="sans-bold" font-size="12">02. Speak on Reflex (02:00)</text>
+  </g>
+
+  <!-- ========================================================================
+       ROW 2, COL 2 (PANEL 05): ADAPTIVE STUDIO COLOR SYSTEM
+       ======================================================================== -->
+  <g transform="translate(562, 428)">
+    <rect width="476" height="292" rx="24" fill="#18171C" stroke="#FFFFFF" stroke-opacity="0.1"/>
+    <text x="24" y="34" fill="#A1A1AA" class="mono" font-size="11">05 / ADAPTIVE COLOR PALETTE</text>
+    <text x="452" y="34" text-anchor="end" fill="#71717A" class="mono" font-size="11">MAX 1 ACCENT (&lt;80% SAT)</text>
+
+    <rect x="24" y="54" width="208" height="62" rx="14" fill="#FBF9F5"/>
+    <text x="38" y="78" fill="#18181B" class="sans-black" font-size="14">Creamy Alabaster</text>
+    <text x="38" y="100" fill="#71717A" class="mono-reg" font-size="12">#FBF9F5 • Day Canvas</text>
+
+    <rect x="244" y="58" width="208" height="62" rx="14" fill="#B34E24"/>
+    <rect x="244" y="54" width="208" height="62" rx="14" fill="#E06D3B"/>
+    <text x="258" y="78" fill="#FFFFFF" class="sans-black" font-size="14">Tangerine Pop (Accent)</text>
+    <text x="258" y="100" fill="#FFFFFF" fill-opacity="0.9" class="mono-reg" font-size="12">#E06D3B • Lip #B34E24</text>
+
+    <rect x="24" y="128" width="208" height="62" rx="14" fill="#141318" stroke="#FFFFFF" stroke-opacity="0.18"/>
+    <text x="38" y="152" fill="#F5F3EF" class="sans-bold" font-size="14">Cozy Night Obsidian</text>
+    <text x="38" y="174" fill="#A1A1AA" class="mono-reg" font-size="12">#141318 • Dark Studio</text>
+
+    <rect x="244" y="128" width="208" height="62" rx="14" fill="#1E1C24" stroke="#FFFFFF" stroke-opacity="0.18"/>
+    <text x="258" y="152" fill="#F5F3EF" class="sans-bold" font-size="14">Plum Slate Surface</text>
+    <text x="258" y="174" fill="#A1A1AA" class="mono-reg" font-size="12">#1E1C24 • Dark Card</text>
+
+    <rect x="24" y="202" width="208" height="62" rx="14" fill="#18181B" stroke="#FFFFFF" stroke-opacity="0.12"/>
+    <text x="38" y="226" fill="#FBF9F5" class="sans-bold" font-size="14">Charcoal Ink</text>
+    <text x="38" y="248" fill="#A1A1AA" class="mono-reg" font-size="12">#18181B • Primary Ink</text>
+
+    <rect x="244" y="202" width="208" height="62" rx="14" fill="#589E42"/>
+    <text x="258" y="226" fill="#FFFFFF" class="sans-bold" font-size="14">Moss Confirm</text>
+    <text x="258" y="248" fill="#FFFFFF" fill-opacity="0.9" class="mono-reg" font-size="12">#589E42 • Match State</text>
+  </g>
+
+  <!-- ========================================================================
+       ROW 2, COL 3 (PANEL 06): TYPOGRAPHIC ARCHITECTURE
+       ======================================================================== -->
+  <g transform="translate(1068, 428)">
+    <rect width="476" height="292" rx="24" fill="#FBF9F5"/>
+    <text x="24" y="34" fill="#71717A" class="mono" font-size="11">06 / TYPOGRAPHY ARCHITECTURE</text>
+    <text x="452" y="34" text-anchor="end" fill="#18181B" class="mono" font-size="11">3-FONT HIERARCHY</text>
+
+    <rect x="24" y="52" width="428" height="68" rx="14" fill="#FFFFFF" stroke="#E6E1D6" stroke-width="2"/>
+    <text x="40" y="72" fill="#71717A" class="mono" font-size="10">01. PRIMARY UI &amp; TACTILE BUTTONS (500 / 700 / 900)</text>
+    <text x="40" y="104" fill="#18181B" class="sans-black" font-size="26" letter-spacing="-0.02em">Satoshi Black — Aa Bb Cc</text>
+
+    <rect x="24" y="130" width="428" height="68" rx="14" fill="#E06D3B" fill-opacity="0.12" stroke="#E06D3B" stroke-width="2"/>
+    <text x="40" y="150" fill="#B34E24" class="mono" font-size="10">02. TARGET ENGLISH IDIOMS &amp; PHRASE FOCUS ONLY</text>
+    <text x="40" y="182" fill="#18181B" class="serif-idiom" font-size="26">Fraunces — “spill the tea”</text>
+
+    <rect x="24" y="208" width="428" height="62" rx="14" fill="#18181B"/>
+    <text x="40" y="228" fill="#A1A1AA" class="mono" font-size="10">03. PHONETICS, TIMERS &amp; GAMIFICATION HUD</text>
+    <text x="40" y="254" fill="#FBF9F5" class="mono" font-size="18">JetBrains Mono</text>
+    <text x="436" y="254" text-anchor="end" fill="#E06D3B" class="mono" font-size="16">/ˈlɪŋ.ɡoʊ/ • 02:00 • 4x</text>
+  </g>
+
+  <!-- ========================================================================
+       ROW 3, COL 1 (PANEL 07): PHASE 2 — COZY NIGHT AI VOICE STUDIO UI
+       ======================================================================== -->
+  <g transform="translate(56, 744)">
+    <rect width="476" height="292" rx="24" fill="#1E1C24" stroke="#FFFFFF" stroke-opacity="0.1"/>
+    <text x="24" y="34" fill="#A1A1AA" class="mono" font-size="11">07 / PHASE 2: COZY NIGHT VOICE STUDIO</text>
+    <text x="452" y="34" text-anchor="end" fill="#E06D3B" class="mono" font-size="11">#141318 STUDIO</text>
+
+    <rect x="24" y="48" width="428" height="224" rx="20" fill="#141318" stroke="#FFFFFF" stroke-opacity="0.2" stroke-width="2"/>
+    <text x="44" y="72" fill="#A1A1AA" class="mono" font-size="11">● LIVE AI ROLEPLAY • FILM CLUB</text>
+    <rect x="348" y="56" width="84" height="22" rx="11" fill="#E06D3B" fill-opacity="0.2"/>
+    <text x="390" y="71" text-anchor="middle" fill="#E06D3B" class="mono" font-size="11">⏱ 01:38</text>
+
+    <rect x="44" y="84" width="388" height="46" rx="12" fill="#1E1C24" stroke="#FFFFFF" stroke-opacity="0.1"/>
+    <text x="58" y="103" fill="#E06D3B" class="mono" font-size="10">MAYA (AI PARTNER):</text>
+    <text x="58" y="121" fill="#F5F3EF" class="sans-bold" font-size="13">"You stayed up till 2 AM watching our short film?! How was it?"</text>
+
+    <!-- "P" Monogram Voice Orb & Waveform Bars -->
+    <circle cx="110" cy="166" r="24" fill="#E06D3B" fill-opacity="0.18" stroke="#E06D3B" stroke-width="2"/>
+    <rect x="100" y="154" width="5" height="22" rx="2.5" fill="#F5F3EF"/>
+    <path d="M108 154H112C116.4 154 120 157.6 120 162C120 166.4 116.4 170 112 170H108V165H112C113.7 165 115 163.7 115 162C115 160.3 113.7 159 112 159H108V154Z" fill="#F5F3EF"/>
+    <circle cx="111.5" cy="162" r="2" fill="#E06D3B"/>
+
+    <rect x="150" y="154" width="6" height="24" rx="3" fill="#E06D3B"/>
+    <rect x="162" y="146" width="6" height="40" rx="3" fill="#E06D3B"/>
+    <rect x="174" y="158" width="6" height="16" rx="3" fill="#E06D3B"/>
+    <rect x="186" y="144" width="6" height="44" rx="3" fill="#E06D3B"/>
+    <rect x="198" y="152" width="6" height="28" rx="3" fill="#E06D3B"/>
+
+    <rect x="224" y="146" width="208" height="40" rx="12" fill="#E06D3B" fill-opacity="0.2" stroke="#E06D3B" stroke-width="1.5"/>
+    <text x="236" y="164" fill="#F5F3EF" class="serif-idiom" font-size="13">✓ “lowkey a masterpiece”</text>
+    <text x="236" y="179" fill="#E06D3B" class="mono" font-size="10">SPOKEN IN FLOW • +50 XP</text>
+
+    <rect x="44" y="218" width="388" height="40" rx="12" fill="#B34E24"/>
+    <rect x="44" y="214" width="388" height="40" rx="12" fill="#E06D3B"/>
+    <text x="238" y="239" text-anchor="middle" fill="#FFFFFF" class="sans-black" font-size="13" letter-spacing="0.05em">LISTENING... TAP TO SEND REPLY</text>
+  </g>
+
+  <!-- ========================================================================
+       ROW 3, COL 2 (PANEL 08): 3D APP ICON & MONOGRAM KINETIC STATES
+       ======================================================================== -->
+  <g transform="translate(562, 744)">
+    <rect width="476" height="292" rx="24" fill="#18171C" stroke="#FFFFFF" stroke-opacity="0.1"/>
+    <text x="24" y="34" fill="#A1A1AA" class="mono" font-size="11">08 / APP ICON &amp; MONOGRAM STATES</text>
+    <text x="452" y="34" text-anchor="end" fill="#71717A" class="mono" font-size="11">iOS &amp; ANDROID</text>
+
+    <!-- App Icon Card with Minimalist "P" -->
+    <rect x="24" y="54" width="428" height="96" rx="18" fill="#1E1C24" stroke="#FFFFFF" stroke-opacity="0.1"/>
+    <rect x="42" y="72" width="64" height="62" rx="16" fill="#B34E24"/>
+    <rect x="42" y="66" width="64" height="62" rx="16" fill="#E06D3B"/>
+    <rect x="57" y="79" width="10" height="36" rx="5" fill="#18181B"/>
+    <path d="M71 79H77.5C85.5081 79 92 85.4919 92 93.5C92 101.508 85.5081 108 77.5 108H71V99H77.5C80.5376 99 83 96.5376 83 93.5C83 90.4624 80.5376 88 77.5 88H71V79Z" fill="#18181B"/>
+    <circle cx="77" cy="93.5" r="3.5" fill="#FBF9F5"/>
+
+    <text x="124" y="94" fill="#F5F3EF" class="sans-black" font-size="18">Monogram Squircle App Icon</text>
+    <text x="124" y="116" fill="#A1A1AA" class="sans-med" font-size="13">Minimalist Charcoal “P” on Tangerine Pop (#E06D3B)</text>
+    <text x="124" y="134" fill="#71717A" class="mono-reg" font-size="11">4px Terracotta Lip (#B34E24) • 1024×1024 Master</text>
+
+    <!-- 3 Kinetic States -->
+    <rect x="24" y="166" width="134" height="102" rx="16" fill="#1E1C24" stroke="#FFFFFF" stroke-opacity="0.08"/>
+    <text x="91" y="198" text-anchor="middle" fill="#F5F3EF" class="mono" font-size="16">▌P•</text>
+    <text x="91" y="226" text-anchor="middle" fill="#F5F3EF" class="sans-bold" font-size="14">01. Static</text>
+    <text x="91" y="246" text-anchor="middle" fill="#A1A1AA" class="mono-reg" font-size="11">Daylight Card</text>
+
+    <rect x="171" y="166" width="134" height="102" rx="16" fill="#1E1C24" stroke="#589E42" stroke-width="1.5"/>
+    <text x="238" y="198" text-anchor="middle" fill="#589E42" class="mono" font-size="16">▌P✦</text>
+    <text x="238" y="226" text-anchor="middle" fill="#F5F3EF" class="sans-bold" font-size="14">02. Phrase Snap</text>
+    <text x="238" y="246" text-anchor="middle" fill="#589E42" class="mono-reg" font-size="11">4x Streak Hit</text>
+
+    <rect x="318" y="166" width="134" height="102" rx="16" fill="#1E1C24" stroke="#E06D3B" stroke-width="1.5"/>
+    <text x="385" y="198" text-anchor="middle" fill="#E06D3B" class="mono" font-size="16">(( P ))</text>
+    <text x="385" y="226" text-anchor="middle" fill="#F5F3EF" class="sans-bold" font-size="14">03. Voice Radar</text>
+    <text x="385" y="246" text-anchor="middle" fill="#A1A1AA" class="mono-reg" font-size="11">Studio Active</text>
+  </g>
+
+  <!-- ========================================================================
+       ROW 3, COL 3 (PANEL 09): TACTILE GAMIFICATION COMPONENT STRIP
+       ======================================================================== -->
+  <g transform="translate(1068, 744)">
+    <rect width="476" height="292" rx="24" fill="#FBF9F5"/>
+    <text x="24" y="34" fill="#71717A" class="mono" font-size="11">09 / TACTILE UI COMPONENT KIT</text>
+    <text x="452" y="34" text-anchor="end" fill="#18181B" class="mono" font-size="11">4PX 3D LIP</text>
+
+    <rect x="24" y="54" width="184" height="36" rx="18" fill="#18181B"/>
+    <text x="116" y="77" text-anchor="middle" fill="#FBF9F5" class="mono" font-size="12">▲ 14 DAY STREAK</text>
+
+    <rect x="220" y="54" width="232" height="36" rx="18" fill="#589E42" fill-opacity="0.15" stroke="#589E42" stroke-width="2"/>
+    <text x="336" y="77" text-anchor="middle" fill="#3E732D" class="mono" font-size="12">✓ +50 XP PHRASE SPOKEN</text>
+
+    <rect x="24" y="106" width="428" height="76" rx="16" fill="#D4942A" fill-opacity="0.14" stroke="#D4942A" stroke-width="2"/>
+    <text x="42" y="130" fill="#9E6B18" class="mono" font-size="11">GENTLE PRONUNCIATION NUDGE (HONEY #D4942A)</text>
+    <text x="42" y="158" fill="#18181B" class="sans-bold" font-size="15">Almost! Stress the first beat in “LOW-key” (/ˈloʊ.ki/)</text>
+
+    <rect x="24" y="206" width="196" height="52" rx="16" fill="#D6CFC2"/>
+    <rect x="24" y="200" width="196" height="52" rx="16" fill="#FFFFFF" stroke="#E6E1D6" stroke-width="2"/>
+    <text x="122" y="231" text-anchor="middle" fill="#18181B" class="sans-bold" font-size="14">0.8x Slow Replay</text>
+
+    <rect x="236" y="206" width="216" height="52" rx="16" fill="#B34E24"/>
+    <rect x="236" y="200" width="216" height="52" rx="16" fill="#E06D3B"/>
+    <text x="344" y="231" text-anchor="middle" fill="#FFFFFF" class="sans-black" font-size="14" letter-spacing="0.04em">SPARK VOICE CHAT →</text>
+  </g>
+</svg>

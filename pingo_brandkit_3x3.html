@@ -1,0 +1,536 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>PINGO — Official 3×3 Brand Identity & Design System Board</title>
+  <script src="https://www.gstatic.com/antigravity/web/dev/tailwindcss.min.js"></script>
+  <style>
+    @import url('https://fonts.googleapis.com/css2?family=Fraunces:ital,opsz,wght@0,9..144,600;0,9..144,700;1,9..144,600;1,9..144,700&family=JetBrains+Mono:wght@500;700&family=Outfit:wght@500;700;800;900&display=swap');
+
+    :root {
+      --day-canvas: #FBF9F5;
+      --day-surface: #FFFFFF;
+      --day-slot: #F3EFE6;
+      --day-border: #E6E1D6;
+      --day-lip: #D6CFC2;
+      --night-canvas: #141318;
+      --night-surface: #1E1C24;
+      --night-elevated: #282530;
+      --ink-day: #18181B;
+      --ink-muted: #71717A;
+      --ink-night: #F5F3EF;
+      --accent: #E06D3B;
+      --accent-lip: #B34E24;
+      --success: #589E42;
+      --success-lip: #3E732D;
+    }
+
+    body {
+      background-color: #0D0C10;
+      color: var(--ink-night);
+      font-family: 'Satoshi', 'Outfit', -apple-system, BlinkMacSystemFont, sans-serif;
+      margin: 0;
+      padding: 20px;
+    }
+
+    .font-display {
+      font-family: 'Satoshi', 'Outfit', sans-serif;
+    }
+
+    .font-phrase {
+      font-family: 'Fraunces', Georgia, serif;
+    }
+
+    .font-mono-hud {
+      font-family: 'JetBrains Mono', monospace;
+      font-variant-numeric: tabular-nums;
+    }
+
+    .tactile-3d-accent {
+      background-color: #E06D3B;
+      color: #FFFFFF;
+      border: 2px solid #B34E24;
+      box-shadow: 0 4px 0 0 #B34E24;
+      transition: transform 0.12s cubic-bezier(0.34, 1.56, 0.64, 1), box-shadow 0.12s ease;
+    }
+    .tactile-3d-accent:active {
+      transform: translateY(3px);
+      box-shadow: 0 1px 0 0 #B34E24;
+    }
+
+    .tactile-3d-tile {
+      background-color: #FFFFFF;
+      color: #18181B;
+      border: 2px solid #E6E1D6;
+      box-shadow: 0 4px 0 0 #D6CFC2;
+      transition: transform 0.12s cubic-bezier(0.34, 1.56, 0.64, 1), box-shadow 0.12s ease;
+    }
+    .tactile-3d-tile:active {
+      transform: translateY(3px);
+      box-shadow: 0 1px 0 0 #D6CFC2;
+    }
+
+    .blueprint-grid {
+      background-image: 
+        linear-gradient(to right, rgba(255,255,255,0.05) 1px, transparent 1px),
+        linear-gradient(to bottom, rgba(255,255,255,0.05) 1px, transparent 1px);
+      background-size: 20px 20px;
+    }
+
+    @keyframes pulse-bar {
+      0%, 100% { transform: scaleY(0.45); }
+      50% { transform: scaleY(1.18); }
+    }
+    .eq-bar {
+      animation: pulse-bar 1.15s ease-in-out infinite;
+    }
+  </style>
+</head>
+<body>
+  <!-- Outer Studio Presentation Canvas -->
+  <div class="max-w-[1440px] mx-auto rounded-[32px] p-6 md:p-8 border border-white/10 shadow-2xl" style="background-color: #141318;">
+    
+    <!-- Top Deck Header Bar -->
+    <div class="flex flex-wrap items-center justify-between gap-4 pb-5 mb-6 border-b border-white/10">
+      <div class="flex items-center gap-3">
+        <span class="px-3 py-1 rounded-full text-xs font-mono-hud font-bold uppercase tracking-wider" style="background-color: #E06D3B; color: #FFFFFF;">
+          PINGO BRAND SYSTEM v2.0
+        </span>
+        <span class="text-xs font-mono-hud text-white/60">
+          3×3 IDENTITY &amp; STITCH DESIGN SYSTEM BOARD • GEOMETRIC "P" MONOGRAM EDITION
+        </span>
+      </div>
+      <div class="flex items-center gap-4 text-xs font-mono-hud text-white/50">
+        <span>PALETTE: #FBF9F5 / #141318 / #E06D3B</span>
+        <span>•</span>
+        <span>TYPE: SATOSHI + FRAUNCES + JETBRAINS MONO</span>
+      </div>
+    </div>
+
+    <!-- 3x3 Master Brandkit Grid -->
+    <div class="grid grid-cols-1 md:grid-cols-3 gap-5">
+
+      <!-- ===================================================================
+           PANEL 01: LOGO COVER (Creamy Alabaster Surface)
+           =================================================================== -->
+      <div class="rounded-[24px] p-6 flex flex-col justify-between min-h-[320px] relative overflow-hidden" style="background-color: #FBF9F5; color: #18181B;">
+        <div class="flex items-center justify-between">
+          <span class="text-xs font-mono-hud font-bold opacity-45">01 / PRIMARY IDENTITY</span>
+          <span class="text-xs font-mono-hud px-2.5 py-0.5 rounded-full font-bold" style="background-color: rgba(224,109,59,0.14); color: #B34E24;">PING-LOOP "P" MONOGRAM</span>
+        </div>
+
+        <!-- Center Lockup -->
+        <div class="my-auto py-4 flex items-center justify-center gap-5">
+          <!-- Tactile 3D App Tile with Minimalist Geometric "P" Monogram -->
+          <svg width="92" height="96" viewBox="0 0 92 96" fill="none">
+            <!-- 3D Lip -->
+            <rect x="4" y="10" width="84" height="82" rx="24" fill="#B34E24"/>
+            <!-- Tile Surface -->
+            <rect x="4" y="4" width="84" height="82" rx="24" fill="#E06D3B"/>
+            <!-- 1. Left Vertical Phrase Pillar (Stem) -->
+            <rect x="24" y="21" width="14" height="48" rx="7" fill="#18181B"/>
+            <!-- 2. Right Acoustic Speech Loop (Bowl of P) -->
+            <path d="M43 21H51C61.4934 21 70 29.5066 70 40C70 50.4934 61.4934 59 51 59H43V47H51C54.866 47 58 43.866 58 40C58 36.134 54.866 33 51 33H43V21Z" fill="#18181B"/>
+            <!-- 3. Optical Center Ping Dot -->
+            <circle cx="50" cy="40" r="4.5" fill="#FBF9F5"/>
+          </svg>
+
+          <div>
+            <div class="text-5xl font-black tracking-tight leading-none font-display" style="color: #18181B;">
+              PINGO<span style="color: #E06D3B;">.</span>
+            </div>
+            <p class="text-xs font-mono-hud mt-2 opacity-65">
+              PING (REFLEX) + LINGO (PHRASE)
+            </p>
+          </div>
+        </div>
+
+        <div class="flex items-center justify-between pt-3 border-t border-black/10 text-xs">
+          <span class="font-bold">Phrase Pillar + Speech Loop + Ping Node</span>
+          <span class="font-mono-hud opacity-50">24×24 GRID</span>
+        </div>
+      </div>
+
+      <!-- ===================================================================
+           PANEL 02: MONOGRAM CONSTRUCTION GEOMETRY (Blueprint Surface)
+           =================================================================== -->
+      <div class="rounded-[24px] p-6 flex flex-col justify-between min-h-[320px] border border-white/10 blueprint-grid" style="background-color: #1E1C24;">
+        <div class="flex items-center justify-between">
+          <span class="text-xs font-mono-hud font-bold text-white/60">02 / MONOGRAM CONSTRUCTION</span>
+          <span class="text-xs font-mono-hud text-[#E06D3B]">SWISS GEOMETRY</span>
+        </div>
+
+        <!-- Blueprint Vector Diagram -->
+        <div class="my-auto flex items-center justify-center py-2">
+          <svg width="310" height="175" viewBox="0 0 310 175" fill="none">
+            <!-- Construction Axes -->
+            <line x1="15" y1="74" x2="295" y2="74" stroke="#E06D3B" stroke-opacity="0.3" stroke-dasharray="4 4"/>
+            <line x1="168" y1="12" x2="168" y2="162" stroke="#E06D3B" stroke-opacity="0.3" stroke-dasharray="4 4"/>
+            <line x1="124" y1="12" x2="124" y2="162" stroke="#F5F3EF" stroke-opacity="0.2" stroke-dasharray="3 3"/>
+            
+            <!-- Concentric Guide Circles around P Bowl -->
+            <circle cx="168" cy="74" r="46" stroke="#F5F3EF" stroke-opacity="0.22" stroke-width="1"/>
+            <circle cx="168" cy="74" r="22" stroke="#E06D3B" stroke-opacity="0.5" stroke-width="1" stroke-dasharray="3 3"/>
+
+            <!-- 1. Left Vertical Stem (Phrase Pillar) -->
+            <rect x="94" y="28" width="22" height="118" rx="11" fill="#F5F3EF" stroke="#E06D3B" stroke-width="1.5"/>
+
+            <!-- 2. Right Semicircular Bowl of P (Speech Loop) -->
+            <path d="M126 28H168C193.405 28 214 48.5949 214 74C214 99.4051 193.405 120 168 120H126V96H168C180.15 96 190 86.1503 190 74C190 61.8497 180.15 52 168 52H126V28Z" fill="#141318" stroke="#F5F3EF" stroke-width="2.5"/>
+
+            <!-- 3. Central Ping Dot & Acoustic Ring -->
+            <circle cx="168" cy="74" r="10" fill="#E06D3B"/>
+            <path d="M224 52C234 64 234 84 224 96" stroke="#E06D3B" stroke-width="3" stroke-linecap="round"/>
+
+            <!-- Callout Labels -->
+            <text x="12" y="48" fill="#A1A1AA" font-family="JetBrains Mono" font-size="10">01. PHRASE PILLAR</text>
+            <text x="12" y="138" fill="#E06D3B" font-family="JetBrains Mono" font-size="10">02. STENCIL GAP</text>
+            <text x="232" y="77" fill="#F5F3EF" font-family="JetBrains Mono" font-size="10">03. PING LOOP</text>
+          </svg>
+        </div>
+
+        <div class="grid grid-cols-3 gap-2 pt-3 border-t border-white/10 text-xs font-mono-hud text-center">
+          <div class="p-1.5 rounded bg-white/5 text-white/80">1. Stem = Block</div>
+          <div class="p-1.5 rounded bg-white/5 text-[#E06D3B]">2. Loop = Chat</div>
+          <div class="p-1.5 rounded bg-white/5 text-white/80">3. Dot = Ping</div>
+        </div>
+      </div>
+
+      <!-- ===================================================================
+           PANEL 03: PHASE 1 — DAYLIGHT MINI-GAME UI (iPhone Mockup)
+           =================================================================== -->
+      <div class="rounded-[24px] p-6 flex flex-col justify-between min-h-[320px] relative overflow-hidden" style="background-color: #F3EFE6; color: #18181B;">
+        <div class="flex items-center justify-between mb-2">
+          <span class="text-xs font-mono-hud font-bold opacity-55">03 / PHASE 1: DAYLIGHT PLAY</span>
+          <span class="text-xs font-mono-hud px-2 py-0.5 rounded bg-black/10 font-bold">#FBF9F5 SURFACE</span>
+        </div>
+
+        <!-- Mobile Device Frame -->
+        <div class="rounded-[22px] p-4 border-4 border-[#18181B] shadow-xl flex flex-col justify-between flex-1" style="background-color: #FBF9F5;">
+          <!-- Phone Top HUD -->
+          <div class="flex items-center justify-between gap-2 mb-2.5">
+            <span class="text-xs font-bold opacity-40">✕</span>
+            <div class="flex-1 h-2.5 rounded-full bg-[#E6E1D6] overflow-hidden">
+              <div class="h-full rounded-full" style="width: 75%; background-color: #E06D3B;"></div>
+            </div>
+            <span class="text-xs font-mono-hud font-bold px-2 py-0.5 rounded-full" style="background-color: rgba(224,109,59,0.16); color: #B34E24;">4x COMBO</span>
+          </div>
+
+          <!-- Prompt Header -->
+          <p class="text-xs font-bold leading-snug mb-2" style="color: #18181B;">
+            Complete the native reaction when a movie exceeds expectations:
+          </p>
+
+          <!-- Sentence Drop Slot with Fraunces Serif Target Idiom -->
+          <div class="p-2.5 rounded-xl mb-2.5 flex flex-wrap items-center gap-1.5" style="background-color: #F3EFE6; border: 2px dashed #D6CFC2;">
+            <span class="text-xs font-bold px-2 py-1 rounded-lg bg-white border border-[#E6E1D6]">That indie film was</span>
+            <span class="text-sm font-phrase italic font-bold px-2.5 py-1 rounded-lg border-2" style="background-color: rgba(224,109,59,0.14); border-color: #E06D3B; color: #18181B;">
+              “lowkey a masterpiece”
+            </span>
+          </div>
+
+          <!-- Tactile Word Tiles -->
+          <div class="flex flex-wrap gap-1.5 mb-3">
+            <span class="tactile-3d-tile px-2.5 py-1 rounded-lg text-xs font-bold cursor-pointer">spill the tea</span>
+            <span class="tactile-3d-tile px-2.5 py-1 rounded-lg text-xs font-bold cursor-pointer">worth the hype</span>
+            <span class="px-2 py-1 rounded-lg text-xs font-mono-hud opacity-55">/ˈloʊ.ki/</span>
+          </div>
+
+          <!-- 3D Primary CTA -->
+          <button class="tactile-3d-accent w-full py-2.5 rounded-xl font-black text-xs tracking-wider uppercase">
+            ENTER 2:00 VOICE STUDIO →
+          </button>
+        </div>
+      </div>
+
+      <!-- ===================================================================
+           PANEL 04: BRAND ESSENCE & TAGLINE POSTER
+           =================================================================== -->
+      <div class="rounded-[24px] p-6 flex flex-col justify-between min-h-[320px] border border-white/10 relative overflow-hidden" style="background-color: #1E1C24;">
+        <div class="flex items-center justify-between">
+          <span class="text-xs font-mono-hud font-bold text-white/60">04 / BRAND ESSENCE</span>
+          <span class="text-xs font-mono-hud px-2.5 py-0.5 rounded-full border border-[#E06D3B]/50 text-[#E06D3B]">5-MIN DAILY LOOP</span>
+        </div>
+
+        <div class="my-auto py-3">
+          <div class="text-4xl md:text-[40px] font-black tracking-tight leading-[1.08]" style="color: #F5F3EF;">
+            Catch the <span class="font-phrase italic font-bold" style="color: #E06D3B;">lingo.</span><br/>
+            Spark the chat.
+          </div>
+          <p class="text-xs text-white/65 mt-3 leading-relaxed max-w-[34ch]">
+            No boring grammar tables. Collect 3 native phrase blocks in Daylight Play, then bounce them back in a 2-minute Cozy Night AI voice rally.
+          </p>
+        </div>
+
+        <!-- Loop Diagram Pills -->
+        <div class="flex items-center gap-2 pt-3 border-t border-white/10">
+          <span class="px-3 py-1.5 rounded-xl text-xs font-bold" style="background-color: #FBF9F5; color: #18181B;">
+            01. Catch Phrase
+          </span>
+          <span class="text-xs font-mono-hud text-[#E06D3B]">→</span>
+          <span class="px-3 py-1.5 rounded-xl text-xs font-bold border border-[#E06D3B]" style="background-color: rgba(224,109,59,0.2); color: #F5F3EF;">
+            02. Voice Ping (02:00)
+          </span>
+        </div>
+      </div>
+
+      <!-- ===================================================================
+           PANEL 05: ADAPTIVE STUDIO COLOR SYSTEM
+           =================================================================== -->
+      <div class="rounded-[24px] p-6 flex flex-col justify-between min-h-[320px] border border-white/10" style="background-color: #18171C;">
+        <div class="flex items-center justify-between">
+          <span class="text-xs font-mono-hud font-bold text-white/60">05 / ADAPTIVE COLOR SYSTEM</span>
+          <span class="text-xs font-mono-hud text-white/45">1 ACCENT (&lt;80% SAT)</span>
+        </div>
+
+        <!-- 6 Tactile Color Swatch Cards -->
+        <div class="grid grid-cols-2 gap-2.5 my-3">
+          <!-- Swatch 1 -->
+          <div class="p-3 rounded-2xl flex flex-col justify-between h-[72px] border border-black/10" style="background-color: #FBF9F5; color: #18181B;">
+            <span class="text-xs font-black">Creamy Alabaster</span>
+            <span class="text-xs font-mono-hud opacity-70">#FBF9F5 • Day Canvas</span>
+          </div>
+          <!-- Swatch 2 -->
+          <div class="p-3 rounded-2xl flex flex-col justify-between h-[72px]" style="background-color: #E06D3B; color: #FFFFFF; box-shadow: 0 4px 0 0 #B34E24;">
+            <span class="text-xs font-black">Tangerine Pop</span>
+            <span class="text-xs font-mono-hud opacity-90">#E06D3B • Lip #B34E24</span>
+          </div>
+          <!-- Swatch 3 -->
+          <div class="p-3 rounded-2xl flex flex-col justify-between h-[72px] border border-white/15" style="background-color: #141318; color: #F5F3EF;">
+            <span class="text-xs font-bold">Cozy Night Studio</span>
+            <span class="text-xs font-mono-hud opacity-65">#141318 • Dark Canvas</span>
+          </div>
+          <!-- Swatch 4 -->
+          <div class="p-3 rounded-2xl flex flex-col justify-between h-[72px] border border-white/15" style="background-color: #1E1C24; color: #F5F3EF;">
+            <span class="text-xs font-bold">Plum Slate Card</span>
+            <span class="text-xs font-mono-hud opacity-65">#1E1C24 • Dark Surface</span>
+          </div>
+          <!-- Swatch 5 -->
+          <div class="p-3 rounded-2xl flex flex-col justify-between h-[72px] border border-white/10" style="background-color: #18181B; color: #FBF9F5;">
+            <span class="text-xs font-bold">Charcoal Ink</span>
+            <span class="text-xs font-mono-hud opacity-65">#18181B • Primary Ink</span>
+          </div>
+          <!-- Swatch 6 -->
+          <div class="p-3 rounded-2xl flex flex-col justify-between h-[72px]" style="background-color: #589E42; color: #FFFFFF; box-shadow: 0 3px 0 0 #3E732D;">
+            <span class="text-xs font-bold">Moss Confirm</span>
+            <span class="text-xs font-mono-hud opacity-90">#589E42 • Match State</span>
+          </div>
+        </div>
+
+        <div class="text-xs font-mono-hud text-white/50 flex justify-between pt-2 border-t border-white/10">
+          <span>ZERO #000000 PURE BLACK</span>
+          <span>ZERO NEON PURPLE</span>
+        </div>
+      </div>
+
+      <!-- ===================================================================
+           PANEL 06: TYPOGRAPHY HIERARCHY (Creamy Alabaster Surface)
+           =================================================================== -->
+      <div class="rounded-[24px] p-6 flex flex-col justify-between min-h-[320px]" style="background-color: #FBF9F5; color: #18181B;">
+        <div class="flex items-center justify-between">
+          <span class="text-xs font-mono-hud font-bold opacity-50">06 / TYPOGRAPHIC ARCHITECTURE</span>
+          <span class="text-xs font-mono-hud px-2 py-0.5 rounded bg-black/5 font-bold">3-ROLE SYSTEM</span>
+        </div>
+
+        <div class="space-y-3 my-auto py-2">
+          <!-- Font 1: Satoshi -->
+          <div class="p-3 rounded-2xl bg-white border-2 border-[#E6E1D6]">
+            <div class="flex justify-between items-center text-xs font-mono-hud text-[#71717A] mb-0.5">
+              <span>01. UI &amp; TACTILE CONTROLS</span>
+              <span>500 / 700 / 900</span>
+            </div>
+            <div class="text-2xl font-black tracking-tight font-display">Satoshi Black — Aa Bb</div>
+          </div>
+
+          <!-- Font 2: Fraunces -->
+          <div class="p-3 rounded-2xl border-2" style="background-color: rgba(224,109,59,0.10); border-color: #E06D3B;">
+            <div class="flex justify-between items-center text-xs font-mono-hud text-[#B34E24] mb-0.5">
+              <span>02. TARGET ENGLISH IDIOMS ONLY</span>
+              <span>SOFT SERIF</span>
+            </div>
+            <div class="text-2xl font-phrase italic font-bold" style="color: #18181B;">
+              Fraunces — “spill the tea”
+            </div>
+          </div>
+
+          <!-- Font 3: JetBrains Mono -->
+          <div class="p-3 rounded-2xl bg-[#18181B] text-[#FBF9F5] flex items-center justify-between">
+            <div>
+              <div class="text-xs font-mono-hud text-white/50">03. IPA &amp; GAME HUD</div>
+              <div class="text-sm font-mono-hud font-bold mt-0.5">JetBrains Mono</div>
+            </div>
+            <div class="text-right font-mono-hud">
+              <div class="text-xs text-[#E06D3B] font-bold">/ˈspɪl ðə tiː/</div>
+              <div class="text-xs text-white/80">02:00 • +50 XP</div>
+            </div>
+          </div>
+        </div>
+
+        <div class="text-xs font-mono-hud opacity-55 pt-2 border-t border-black/10 flex justify-between">
+          <span>INTER FONT STRICTLY BANNED</span>
+          <span>MAX 60CH LINE WIDTH</span>
+        </div>
+      </div>
+
+      <!-- ===================================================================
+           PANEL 07: PHASE 2 — COZY NIGHT AI VOICE STUDIO (iPhone Mockup)
+           =================================================================== -->
+      <div class="rounded-[24px] p-6 flex flex-col justify-between min-h-[320px] border border-white/10" style="background-color: #1E1C24;">
+        <div class="flex items-center justify-between mb-2">
+          <span class="text-xs font-mono-hud font-bold text-white/60">07 / PHASE 2: AI VOICE STUDIO</span>
+          <span class="text-xs font-mono-hud px-2 py-0.5 rounded font-bold" style="background-color: rgba(224,109,59,0.2); color: #E06D3B;">#141318 STUDIO</span>
+        </div>
+
+        <!-- Dark Studio Phone Frame -->
+        <div class="rounded-[22px] p-4 border-2 border-white/15 shadow-2xl flex flex-col justify-between flex-1" style="background-color: #141318; color: #F5F3EF;">
+          <!-- Studio Top Bar -->
+          <div class="flex items-center justify-between text-xs font-mono-hud mb-2">
+            <span class="text-white/60">● LIVE ROLEPLAY</span>
+            <span class="px-2.5 py-0.5 rounded-full bg-white/10 font-bold text-[#E06D3B]">⏱ 01:38</span>
+          </div>
+
+          <!-- AI Prompt Bubble -->
+          <div class="p-2.5 rounded-xl border border-white/10 mb-2.5" style="background-color: #1E1C24;">
+            <div class="text-xs font-mono-hud text-[#E06D3B] mb-0.5">MAYA • FILM CLUB FRIEND</div>
+            <p class="text-xs font-bold leading-snug text-white/95">
+              "Wait, you stayed up till 2 AM watching our short film? How was it?!"
+            </p>
+          </div>
+
+          <!-- Center "P" Monogram Voice Orb & Reactive Waveform -->
+          <div class="my-1 py-2 flex items-center justify-center gap-3">
+            <div class="w-12 h-12 rounded-full flex items-center justify-center border-2 border-[#E06D3B]" style="background-color: rgba(224,109,59,0.18);">
+              <!-- Mini "P" Monogram Icon -->
+              <svg width="24" height="24" viewBox="0 0 40 40" fill="none">
+                <rect x="9" y="7" width="7" height="26" rx="3.5" fill="#F5F3EF"/>
+                <path d="M19 7H23C28.5228 7 33 11.4772 33 17C33 22.5228 28.5228 27 23 27H19V20.5H23C24.933 20.5 26.5 18.933 26.5 17C26.5 15.067 24.933 13.5 23 13.5H19V7Z" fill="#F5F3EF"/>
+                <circle cx="22.5" cy="17" r="2.5" fill="#E06D3B"/>
+              </svg>
+            </div>
+            <!-- Equalizer Bars -->
+            <div class="flex items-center gap-1 h-9">
+              <div class="w-1.5 h-5 rounded-full bg-[#E06D3B] eq-bar" style="animation-delay:0s"></div>
+              <div class="w-1.5 h-8 rounded-full bg-[#E06D3B] eq-bar" style="animation-delay:0.15s"></div>
+              <div class="w-1.5 h-6 rounded-full bg-[#E06D3B] eq-bar" style="animation-delay:0.3s"></div>
+              <div class="w-1.5 h-9 rounded-full bg-[#E06D3B] eq-bar" style="animation-delay:0.1s"></div>
+              <div class="w-1.5 h-7 rounded-full bg-[#E06D3B] eq-bar" style="animation-delay:0.25s"></div>
+              <div class="w-1.5 h-4 rounded-full bg-[#E06D3B] eq-bar" style="animation-delay:0.4s"></div>
+            </div>
+          </div>
+
+          <!-- Target Phrase Mission Strip -->
+          <div class="flex items-center justify-between gap-1.5 mb-2.5 px-2.5 py-1.5 rounded-xl border border-[#E06D3B]" style="background-color: rgba(224,109,59,0.18);">
+            <span class="text-xs font-phrase italic font-bold text-white">✓ “lowkey a masterpiece”</span>
+            <span class="text-xs font-mono-hud font-bold text-[#E06D3B]">+50 XP</span>
+          </div>
+
+          <button class="tactile-3d-accent w-full py-2 rounded-xl font-black text-xs tracking-wider uppercase">
+            LISTENING... TAP TO SEND REPLY
+          </button>
+        </div>
+      </div>
+
+      <!-- ===================================================================
+           PANEL 08: 3D APP ICON & MONOGRAM KINETIC STATES
+           =================================================================== -->
+      <div class="rounded-[24px] p-6 flex flex-col justify-between min-h-[320px] border border-white/10" style="background-color: #18171C;">
+        <div class="flex items-center justify-between">
+          <span class="text-xs font-mono-hud font-bold text-white/60">08 / APP ICON &amp; MONOGRAM STATES</span>
+          <span class="text-xs font-mono-hud text-white/45">iOS / ANDROID</span>
+        </div>
+
+        <!-- App Icon + 3 Kinetic States -->
+        <div class="my-auto space-y-4">
+          <div class="flex items-center gap-4 p-3.5 rounded-2xl bg-white/5 border border-white/10">
+            <!-- Squircle App Icon with Minimalist "P" -->
+            <div class="w-16 h-16 rounded-[18px] flex items-center justify-center shrink-0" style="background-color: #E06D3B; box-shadow: 0 5px 0 0 #B34E24;">
+              <svg width="42" height="42" viewBox="0 0 48 48" fill="none">
+                <rect x="11" y="9" width="8" height="30" rx="4" fill="#18181B"/>
+                <path d="M22 9H27.5C33.8513 9 39 14.1487 39 20.5C39 26.8513 33.8513 32 27.5 32H22V24.5H27.5C29.7091 24.5 31.5 22.7091 31.5 20.5C31.5 18.2909 29.7091 16.5 27.5 16.5H22V9Z" fill="#18181B"/>
+                <circle cx="27" cy="20.5" r="2.8" fill="#FBF9F5"/>
+              </svg>
+            </div>
+            <div>
+              <div class="text-sm font-black text-white">Monogram Home Icon</div>
+              <p class="text-xs text-white/60 mt-0.5 leading-snug">
+                Minimalist Charcoal **`P`** Monogram on Tangerine Pop (`#E06D3B`) with 3D Terracotta lip.
+              </p>
+            </div>
+          </div>
+
+          <!-- 3 Monogram Kinetic States -->
+          <div class="grid grid-cols-3 gap-2.5 text-center">
+            <div class="p-2.5 rounded-xl bg-white/5 border border-white/10">
+              <div class="text-xs font-mono-hud text-[#F5F3EF] font-bold">▌P•</div>
+              <div class="text-xs font-bold mt-1">01. Static</div>
+              <div class="text-xs text-white/50">Daylight Card</div>
+            </div>
+            <div class="p-2.5 rounded-xl bg-white/5 border border-[#589E42]/60">
+              <div class="text-xs font-mono-hud text-[#589E42] font-bold">▌P✦</div>
+              <div class="text-xs font-bold mt-1">02. Snap</div>
+              <div class="text-xs text-white/50">Phrase Match</div>
+            </div>
+            <div class="p-2.5 rounded-xl bg-white/5 border border-[#E06D3B]/60">
+              <div class="text-xs font-mono-hud text-[#E06D3B] font-bold">(( P ))</div>
+              <div class="text-xs font-bold mt-1">03. Radar</div>
+              <div class="text-xs text-white/50">Voice Studio</div>
+            </div>
+          </div>
+        </div>
+
+        <div class="text-xs font-mono-hud text-white/50 pt-2 border-t border-white/10 flex justify-between">
+          <span>PURE SWISS MONOGRAM</span>
+          <span>SPRING STIFFNESS: 220</span>
+        </div>
+      </div>
+
+      <!-- ===================================================================
+           PANEL 09: TACTILE GAMIFICATION COMPONENT STRIP
+           =================================================================== -->
+      <div class="rounded-[24px] p-6 flex flex-col justify-between min-h-[320px]" style="background-color: #FBF9F5; color: #18181B;">
+        <div class="flex items-center justify-between">
+          <span class="text-xs font-mono-hud font-bold opacity-50">09 / TACTILE UI COMPONENT KIT</span>
+          <span class="text-xs font-mono-hud px-2 py-0.5 rounded bg-black/5 font-bold">4PX 3D LIP</span>
+        </div>
+
+        <div class="space-y-3 my-auto py-2">
+          <!-- Streak & XP HUD Badges -->
+          <div class="flex flex-wrap items-center gap-2">
+            <span class="px-3 py-1.5 rounded-full text-xs font-mono-hud font-bold flex items-center gap-1.5" style="background-color: #18181B; color: #FBF9F5;">
+              <span style="color: #E06D3B;">▲</span> 14 DAY STREAK
+            </span>
+            <span class="px-3 py-1.5 rounded-full text-xs font-mono-hud font-bold" style="background-color: rgba(88,158,66,0.15); color: #3E732D; border: 1.5px solid #589E42;">
+              +50 XP SPOKEN
+            </span>
+          </div>
+
+          <!-- Gentle Nudge Pronunciation Card -->
+          <div class="p-3 rounded-2xl border-2" style="background-color: rgba(212,148,42,0.12); border-color: #D4942A;">
+            <div class="text-xs font-mono-hud font-bold" style="color: #9E6B18;">GENTLE PRONUNCIATION NUDGE</div>
+            <div class="text-xs font-bold mt-0.5" style="color: #18181B;">
+              Stress the first beat: <span class="font-mono-hud underline">LOW</span>-key <span class="font-mono-hud opacity-65">/ˈloʊ.ki/</span>
+            </div>
+          </div>
+
+          <!-- Interactive 3D Button Pair -->
+          <div class="grid grid-cols-2 gap-2.5 pt-1">
+            <button class="tactile-3d-tile py-2.5 px-3 rounded-xl font-bold text-xs">
+              0.8x Slow Audio
+            </button>
+            <button class="tactile-3d-accent py-2.5 px-3 rounded-xl font-black text-xs uppercase tracking-wide">
+              Spark Chat →
+            </button>
+          </div>
+        </div>
+
+        <div class="text-xs font-mono-hud opacity-55 pt-2 border-t border-black/10 flex justify-between">
+          <span>MIN TOUCH TARGET: 48PX</span>
+          <span>STITCH-READY TOKENS</span>
+        </div>
+      </div>
+
+    </div>
+  </div>
+</body>
+</html>
